@@ -1,0 +1,12 @@
+{
+    "require": {
+        "mockery/mockery": "dev-master",
+        "guzzlehttp/guzzle": "dev-master"
+    },
+    "autoload": {
+        "psr-4": {
+            "Stripe\\": "src/Stripe"
+        },
+        "files": ["src/helpers.php"]
+    }
+}

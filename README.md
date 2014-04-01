@@ -1,0 +1,4 @@
+phpStripeClient
+===============
+
+Stripe PHP Client
