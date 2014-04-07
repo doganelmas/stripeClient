@@ -2,7 +2,7 @@
 
 $guzzle = new GuzzleHttp\Client;
 
-$stripe = new Stripe\StripeClient($guzzle, 'sk_test_lTgven7S54afshldQT0PxO9o');
+$stripe = new Stripe\StripeClient($guzzle, 'secretKeyIsHere');
 
 /*var_dump($stripe->createCharge('1000', 'usd', array(
     'card' => array(
@@ -14,7 +14,7 @@ $stripe = new Stripe\StripeClient($guzzle, 'sk_test_lTgven7S54afshldQT0PxO9o');
 
 try
 {
-    var_dump($stripe->retrieveCharge('ch_10Yx2OcgB4BOOiqorBbJxc'));    
+    var_dump($stripe->retrieveCharge('exampleChargeId'));    
 }
 catch (Exception $e)
 {
