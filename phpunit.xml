@@ -1,6 +1,5 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<phpunit 
-    bootstrap="vendor/autoload.php">
+<phpunit color="true" bootstrap="vendor/autoload.php">
     <testsuites>
         <testsuite name="Stripe Unit Testing">
             <directory>./tests</directory>
